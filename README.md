@@ -3,11 +3,14 @@
 A fork of uv-k5-firmware that has many features stripped out and disabled, increasing available flash storage.
 
 ---
-
+Base .bin size: 60192 bytes
 
 | Feature        | Method          | Bytes removed  |
 | ------------- |:-------------:| -----:|
-| NOAA      | Disabled in Makefile | 0 |
+| NOAA      | Disabled in Makefile | 1072 |
+| Overlay      | Disabled in Makefile | 876 |
+| Aircopy      | Disabled in Makefile | 1600 |
+| Alarm      | Disabled in Makefile | 528 |
 | Voice      | Empty functions      |   0 |
 
 
