@@ -1,19 +1,18 @@
-# Open reimplementation of the Quan Sheng UV K5 v2.1.27 firmware
+# Feature-stripped version of [DualTachyon's uv-k5-firmware](https://github.com/DualTachyon/uv-k5-firmware)
 
-This repository is a preservation project of the UV K5 v2.1.27 firmware.
-It is dedicated to understanding how the radio works and help developers making their own customisations/fixes/etc.
-It is by no means fully understood or has all variables/functions properly named, as this is best effort only.
-As a result, this repository will not include any customisations or improvements over the original firmware.
+A fork of uv-k5-firmware that has many features stripped out and disabled, increasing available flash storage.
 
-You can find an alternate branch called "fixes" that contains fixes for real bugs present in the original firmware.
-This branch will also accumulate fixes/improvements from newer releases by QS (for example v2.01.31).
+---
 
-For improved/better firmware and new features, you can find the following repositories by other collaborators:
 
-* https://github.com/fagci/uv-k5-firmware-fagci-mod
-* https://github.com/OneOfEleven/uv-k5-firmware-custom
-* https://github.com/Tunas1337/uv-k5-firmware (Check the branches)
-* https://github.com/rebezhir/openquack for Russian users
+| Feature        | Method          | Bytes removed  |
+| ------------- |:-------------:| -----:|
+| NOAA      | Disabled in Makefile | 0 |
+| Voice      | Empty functions      |   0 |
+
+
+---
+
 
 # Compiler
 
