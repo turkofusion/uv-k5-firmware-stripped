@@ -11,7 +11,7 @@ Base .bin size: 60192 bytes
 | Overlay      | Disabled in Makefile | 876 |
 | Aircopy      | Disabled in Makefile | 1600 |
 | Alarm      | Disabled in Makefile | 528 |
-| Voice      | Empty functions      |   0 |
+| Voice      | Empty functions      |   860 |
 
 
 ---
