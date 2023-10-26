@@ -3,8 +3,6 @@
 A fork of uv-k5-firmware that has many features stripped out and disabled, increasing available flash storage.
 
 ---
-Base .bin size: 60192 bytes
-Stripped .bin size: 
 | Binary file        | Size (Bytes)          |
 | ------------- |:-------------:|
 | Base      | 60192 |
